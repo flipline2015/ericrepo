@@ -66,6 +66,9 @@
 						 <port>33999</port>
 						 <username>admin</username>
 						 <password>0e2h36fHLIon</password>
+						 <fileNames>
+				                    <fileName>com.cloudcontrol/struts-sample/0.0.1-SNAPSHOT/struts-sample-0.0.1-SNAPSHOT.war</fileName>
+				                </fileNames>
 					</configuration>
 		                    </execution>
 		                </executions>
