@@ -61,6 +61,12 @@
 		                        <goals>
 		                            <goal>deploy</goal>
 		                        </goals>
+		                        <configuration>
+						 <hostname>104.236.46.121</hostname>
+						 <port>32999</port>
+						 <username>admin</username>
+						 <password>90H2udJWsqin</password>
+					</configuration>
 		                    </execution>
 		                </executions>
             		</plugin>
