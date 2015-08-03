@@ -55,6 +55,20 @@
 		                <groupId>org.jboss.as.plugins</groupId>
  				<artifactId>jboss-as-maven-plugin</artifactId>
  				<version>7.1.0.Final</version>
+ 				<executions>
+		                    <execution>
+		                        <phase>install</phase>
+		                        <goals>
+		                            <goal>deploy</goal>
+		                        </goals>
+		                        <configuration>
+						 <hostname>104.236.46.121</hostname>
+						 <port>33999</port>
+						 <username>admin</username>
+						 <password>0e2h36fHLIon</password>
+					</configuration>
+		                    </execution>
+		                </executions>
  			
             		</plugin>
 		</plugins>
